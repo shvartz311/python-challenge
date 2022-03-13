@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: pythonchallenge
-        image: myawesomeproject.jfrog.io/default-docker-local/ory:1.0.1
+        image: PRIVATE-REPO-PATH-AND-IMAGE-NAME-WITH-TAG
       imagePullSecrets:
       - name: regcred
       restartPolicy: Never
