@@ -4,9 +4,9 @@ import csv
 from threading import Thread
 from time import perf_counter
 
-user = "myawesomeuser"
-passw = "Admin1234!"
-platform_base_url = "https://myawesomeproject.jfrog.io"
+user = "xxx"
+passw = "xxx"
+platform_base_url = "xxx"
 repo_name = "libs-release-local"
 params = {'user':user, 'passw':passw,'api':'no','list':'','deep':'1'}
 string_to_find = "This is a short story !"
@@ -23,7 +23,7 @@ def generateToken(func):
 
 @generateToken
 def retrieveUri():
-    initialGetRequest = requests.get(f"https://myawesomeproject.jfrog.io/artifactory/api/storage/{repo_name}",params=params,auth=(user, access_token))
+    initialGetRequest = requests.get(f'{platform_base_url}/artifactory/api/storage/{repo_name}',params=params,auth=(user, access_token))
     initialGetResponse = initialGetRequest.json()
     uri_list = [x['uri'] for x in initialGetResponse['files']]
     return uri_list
