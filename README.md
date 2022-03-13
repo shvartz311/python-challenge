@@ -22,11 +22,12 @@ The script should print start and end time, and who makes the fastest run will g
 
 You should use at least 10 advanced python concepts
 
+This relies on a jfrog platform with admin user and password access.
 JFrog Platform details
-jfrog_url = "<URL>"
-jfrog_user = "<USER>"
-jfrog_password = "<PASS>"
-Jfrog_repo_name = “<REPO>“
+jfrog_url = "URL"
+jfrog_user = "USER"
+jfrog_password = "PASS"
+Jfrog_repo_name = “REPO“
 
 
 
