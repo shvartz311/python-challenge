@@ -35,9 +35,9 @@ Jfrog_repo_name = “REPO“
 
 The script body should be like:
 
-   #!/usr/bin/env python3
+      #!/usr/bin/env python3
 
-   < YOUR CODE > 
+      < YOUR CODE > 
 
 
    if __name__ == "__main__":
