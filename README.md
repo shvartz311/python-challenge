@@ -40,7 +40,7 @@ The script body should be like:
       < YOUR CODE > 
 
 
-   if __name__ == "__main__":
+      if __name__ == "__main__":
 
       start_time = perf_counter()
 
