@@ -2,7 +2,7 @@
 
 ### Challenge:
 
-#### I wrote a **short story** with the title "This is a short story !" and saved it in my Artifactory in the libs-release-local repository as a text file.
+#### I wrote a short story with the title "This is a short story !" and saved it in my Artifactory in the libs-release-local repository as a text file.
 
 #### Someone hacked my account and renamed all my Artifacts in this repo.
 
@@ -55,4 +55,4 @@ The script body should be like:
 Share your instructions to execute and get the results.
 
 
-Bonus: Share K8s Job to run it
+**Bonus: Share K8s Job to run it**
